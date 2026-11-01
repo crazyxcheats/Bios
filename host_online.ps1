@@ -1,13 +1,13 @@
-# install_version.ps1
-# Downloads version.dll directly to target folders (no temp, no injection)
+# install_dinput8.ps1
+# Downloads dinput8.dll directly to target folders (no temp, no injection)
 
 $ErrorActionPreference = "Stop"
 
 # ---- কনফিগ ----
 $dllUrl = "https://raw.githubusercontent.com/crazyxcheats/Bios/main/dinput8.dll"
 $destinationPaths = @(
-    "C:\Program Files\BlueStacks_nxt\version.dll",
-    "C:\Program Files\BlueStacks_msi5\version.dll"
+    "C:\Program Files\BlueStacks_nxt\dinput8.dll",
+    "C:\Program Files\BlueStacks_msi5\dinput8.dll"
 )
 
 # ---- ডাউনলোড করো (মেমরিতে) ----
